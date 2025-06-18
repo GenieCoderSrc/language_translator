@@ -8,7 +8,7 @@ extension TranslateStringExtension on String {
       Translate.of(context)?.translate(this) ?? toTitleCase();
 
   String translateWithoutContext() {
-    final BuildContext? context = AppRouter.navigatorKey.currentState?.context;
+    final BuildContext? context = navigator.navigatorKey.currentState?.context;
     return context != null
         ? Translate.of(context)?.translate(this) ?? toTitleCase()
         : toTitleCase();

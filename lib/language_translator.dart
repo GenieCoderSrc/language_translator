@@ -1,4 +1,4 @@
 library language_translator;
 
-export 'constants/app_txt_const.dart';
-export 'services/translator_factory.dart';
+export 'package:language_translator/extensions/translate_string_extension.dart';
+export 'package:language_translator/widgets/app_translated_text_view.dart';
