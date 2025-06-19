@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 
 
+## 0.0.3
+- Upgrade Dependencies.
+- Included `textAlign`, `textDirection` in the `AppTranslatedTextView`
+  
+
+## 0.0.2
+- Upgrade Dependencies.
+
 ## 0.0.1
 ### Initial release
 - Added support for multiple languages with default fallback.
