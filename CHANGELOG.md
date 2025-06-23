@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 
 
+## 0.0.3+1
+- Use `navigation_without_context` 0.0.3+1
+ 
+
 ## 0.0.3
 - Upgrade Dependencies.
 - Included `textAlign`, `textDirection` in the `AppTranslatedTextView`
