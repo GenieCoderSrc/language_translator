@@ -13,6 +13,10 @@ All notable changes to this project will be documented in this file.
 - Updated `getGlobalLanguageName(String code)` function to return human-readable names for all supported languages using ISO 639-1 codes.
 - Included region variants like `en_US`, `pt_BR`, and `zh_TW` for better locale support.
 
+## 0.0.3+1
+- Use `navigation_without_context` 0.0.3+1
+ 
+
 ## 0.0.3
 - Upgrade Dependencies.
 - Included `textAlign`, `textDirection` in the `AppTranslatedTextView`
