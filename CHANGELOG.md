@@ -14,4 +14,3 @@ All notable changes to this project will be documented in this file.
 - Utility class for global language name access.
 - Singleton pattern for core utilities.
 - Supports 20+ languages out-of-the-box.
-
