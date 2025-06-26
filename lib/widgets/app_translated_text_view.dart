@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:language_translator/language_translator.dart';
 
 class AppTranslatedTextView extends StatelessWidget {

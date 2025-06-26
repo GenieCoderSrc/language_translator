@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.0.4+1
+### Fixed
+- Fixed import for `navigation_without_context` 0.0.3+1
+ 
+
 ## 0.0.4
 - Initial support for basic language codes:
     - English (`en`)
@@ -14,6 +19,7 @@ All notable changes to this project will be documented in this file.
 - Included region variants like `en_US`, `pt_BR`, and `zh_TW` for better locale support.
 
 ## 0.0.3+1
+### Changed
 - Use `navigation_without_context` 0.0.3+1
  
 
