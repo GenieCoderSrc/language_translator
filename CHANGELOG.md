@@ -2,13 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.0.5+1
+
+### Added
+* `AppLanguageBuilder` to wrap child widgets with correct `Directionality` and `Localizations.override`.
+
+
 ## 0.0.5
 
 ### Added
-
 * `HydratedLanguageCubit` for persisted language state management using `hydrated_bloc`.
 * `LanguageSelectionCubit` for temporary UI-level language selection.
-* `AppLanguageBuilder` to wrap child widgets with correct `Directionality` and `Localizations.override`.
 * `AppLanguage` refactored with default `Locale` and `supportedLanguages`.
 * Extension method `sortedByName()` for sorting `Locale` list alphabetically.
 * `LanguageLabelUtil` with RTL support check via `isRtl` method.

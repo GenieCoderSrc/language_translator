@@ -14,6 +14,7 @@ export 'package:language_translator/utils/util_load_local_file.dart';
 export 'package:language_translator/view_models/hydrated_language_cubit/hydrated_language_cubit.dart';
 export 'package:language_translator/view_models/language_selection_cubit/language_selection_cubit.dart';
 export 'package:language_translator/view_models/mixins/locale_validator.dart';
+export 'package:language_translator/views/screens/app_language_builder.dart';
 export 'package:language_translator/views/widgets/app_translated_text_view.dart';
 export 'package:language_translator/views/widgets/dropdown_language_selector.dart';
 export 'package:language_translator/views/widgets/modal_language_selector.dart';
