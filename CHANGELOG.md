@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.0.6+1
+### Jun 27, 2025
+
+### Updated
+
+* Set AppLanguage `defaultLanguage` on null case in `HydratedLanguageCubit` at `fromJson`.
+
+---
+
 ## 0.0.6
 ### Jun 27, 2025
 
