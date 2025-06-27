@@ -3,21 +3,19 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get_it/get_it.dart';
 import 'package:language_translator/language_translator.dart';
-import 'package:language_translator/views/screens/app_language_builder.dart';
 
 final sl = GetIt.instance;
 
 void main() {
-  // Register optional configuration before using AppLanguage
-  AppLanguage.initialize(
-    config: const AppLanguageConfig().copyWith(
-      defaultLanguage: Locale('bn'),
-      supportedLanguages: [Locale('en'), Locale('bn')],
-    ),
+  // Optional: Initialize language configuration with custom defaults
+  initializeLanguageConfig(
+    defaultLanguageCode: 'bn',
+    supportedLocales: [Locale('en'), Locale('bn')],
   );
 
   // Register DI and BLoCs
   languageSettingGetItRegister();
+
   runApp(const MyApp());
 }
 

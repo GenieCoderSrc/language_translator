@@ -1,4 +1,4 @@
-# language\_translator
+# language_translator
 
 A lightweight Flutter package for seamlessly integrating multi-language support into your application. This package simplifies translating text and managing locale data for various supported languages, with or without `BuildContext`.
 
@@ -15,6 +15,7 @@ A lightweight Flutter package for seamlessly integrating multi-language support 
 * Searchable language picker with modal bottom sheet
 * Directionality support with `AppLanguageBuilder`
 * Clean architecture using `BlocProvider` and `get_it`
+* Simple initialization using `initializeLanguageConfig()`
 
 ## Getting Started
 
@@ -53,6 +54,26 @@ MaterialApp(
   locale: AppLanguage.defaultLanguage,
   // ...
 )
+```
+
+### Initialize Language Config
+
+Use `initializeLanguageConfig()` at app startup to set default and supported languages:
+
+```dart
+initializeLanguageConfig(
+  defaultLanguageCode: 'bn',
+  supportedLocales: [Locale('en'), Locale('bn')],
+);
+```
+
+Optional `countryCode` is also supported:
+
+```dart
+initializeLanguageConfig(
+  defaultLanguageCode: 'en',
+  countryCode: 'US',
+);
 ```
 
 ### Translate Text
@@ -144,7 +165,8 @@ language_translator/
 ├── language/
 │   ├── app_language.dart
 │   ├── app_language_config.dart
-│   └── i_language_config.dart
+│   ├── i_language_config.dart
+│   └── initialize_language_config.dart
 ├── utils/
 │   ├── translate.dart
 │   ├── app_local_delegate.dart

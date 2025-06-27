@@ -1,6 +1,6 @@
 name: language_translator
 description: "A lightweight Flutter package for easy multilingual support, providing string translation with or without context, RTL support, and a custom widget for translated text display."
-version: 0.0.5+1
+version: 0.0.6
 
 homepage: https://github.com/GenieCoderSrc/language_translator
 repository: https://github.com/GenieCoderSrc/language_translator

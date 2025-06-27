@@ -2,15 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
-## 0.0.5+1
+## 0.0.6
+### Jun 27, 2025
 
 ### Added
-* `AppLanguageBuilder` to wrap child widgets with correct `Directionality` and `Localizations.override`.
 
+* `initializeLanguageConfig` function to simplify app language initialization using optional parameters (`defaultLanguageCode`, `countryCode`, and `supportedLocales`).
+
+---
+
+## 0.0.5+1
+### Jun 26, 2025
+
+### Added
+
+* `AppLanguageBuilder` to wrap child widgets with correct `Directionality` and `Localizations.override`.
 
 ## 0.0.5
 
 ### Added
+
 * `HydratedLanguageCubit` for persisted language state management using `hydrated_bloc`.
 * `LanguageSelectionCubit` for temporary UI-level language selection.
 * `AppLanguage` refactored with default `Locale` and `supportedLanguages`.

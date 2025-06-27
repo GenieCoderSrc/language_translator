@@ -7,6 +7,7 @@ export 'package:language_translator/extensions/translate_string_extension.dart';
 export 'package:language_translator/language/app_language.dart';
 export 'package:language_translator/language/app_language_config.dart';
 export 'package:language_translator/utils/app_local_delegate.dart';
+export 'package:language_translator/utils/initialize_language_config.dart';
 export 'package:language_translator/utils/language_label_util.dart';
 export 'package:language_translator/utils/language_name.dart';
 export 'package:language_translator/utils/translate.dart';
