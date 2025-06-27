@@ -26,10 +26,14 @@ class HydratedLanguageCubit extends HydratedCubit<Locale>
   /// Deserialize from storage
   @override
   Locale fromJson(Map<String, dynamic> json) {
-    return Locale(
-      json['languageCode'] as String,
-      json['countryCode'] as String?,
-    );
+    final languageCode = json['languageCode'] as String?;
+    final countryCode = json['countryCode'] as String?;
+
+    if (languageCode == null) {
+      return AppLanguage.defaultLanguage;
+    }
+
+    return Locale(languageCode, countryCode);
   }
 
   /// Serialize to storage
