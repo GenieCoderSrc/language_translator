@@ -1,0 +1,8 @@
+# melos_managed_dependency_overrides: dart_data_type_parser,get_it_di_global_variable,navigation_without_context
+dependency_overrides:
+  dart_data_type_parser:
+    path: ../dart_data_type_parser
+  get_it_di_global_variable:
+    path: ../get_it_di_global_variable
+  navigation_without_context:
+    path: ../navigation_without_context

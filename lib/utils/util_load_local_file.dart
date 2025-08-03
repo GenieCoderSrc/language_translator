@@ -8,10 +8,10 @@ class UtilLoadLocalFile {
     return jsonDecode(content) as Map<String, dynamic>;
   }
 
-//  static String utf8convert(String text) {
-//    List<int> bytes = text.toString().codeUnits;
-//    return utf8.decode(bytes);
-//  }
+  //  static String utf8convert(String text) {
+  //    List<int> bytes = text.toString().codeUnits;
+  //    return utf8.decode(bytes);
+  //  }
 
   ///Singleton repository
   static final UtilLoadLocalFile _instance = UtilLoadLocalFile._internal();
