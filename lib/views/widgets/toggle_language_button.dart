@@ -17,10 +17,9 @@ class ToggleLanguageButton extends StatelessWidget {
     return BlocBuilder<HydratedLanguageCubit, Locale>(
       builder: (context, state) {
         final isFirst = state.languageCode == first.languageCode;
-        final toggleLabel =
-            isFirst
-                ? '${first.languageCode.toUpperCase()} → ${second.languageCode.toUpperCase()}'
-                : '${second.languageCode.toUpperCase()} → ${first.languageCode.toUpperCase()}';
+        final toggleLabel = isFirst
+            ? '${first.languageCode.toUpperCase()} → ${second.languageCode.toUpperCase()}'
+            : '${second.languageCode.toUpperCase()} → ${first.languageCode.toUpperCase()}';
 
         return ElevatedButton(
           onPressed: () {

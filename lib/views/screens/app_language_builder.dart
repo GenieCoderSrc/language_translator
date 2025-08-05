@@ -12,10 +12,9 @@ class AppLanguageBuilder extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocBuilder<HydratedLanguageCubit, Locale>(
       builder: (context, locale) {
-        final direction =
-            LanguageLabelUtil.isRtl(locale)
-                ? TextDirection.rtl
-                : TextDirection.ltr;
+        final direction = LanguageLabelUtil.isRtl(locale)
+            ? TextDirection.rtl
+            : TextDirection.ltr;
 
         debugPrint(
           'AppLanguageBuilder | build | HydratedLanguageCubit locale languageCode: ${locale.languageCode} countryCode: ${locale.countryCode} '

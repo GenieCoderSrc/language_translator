@@ -21,15 +21,14 @@ class DropdownLanguageSelector extends StatelessWidget {
               context.read<HydratedLanguageCubit>().setLocale(newLocale);
             }
           },
-          items:
-              languages
-                  .map(
-                    (locale) => DropdownMenuItem(
-                      value: locale,
-                      child: _buildLanguageItem(locale),
-                    ),
-                  )
-                  .toList(),
+          items: languages
+              .map(
+                (locale) => DropdownMenuItem(
+                  value: locale,
+                  child: _buildLanguageItem(locale),
+                ),
+              )
+              .toList(),
         );
       },
     );

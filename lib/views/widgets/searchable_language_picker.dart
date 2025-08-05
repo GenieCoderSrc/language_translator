@@ -25,11 +25,10 @@ class _SearchableLanguagePickerState extends State<SearchableLanguagePicker> {
   void _filter() {
     final query = _searchController.text.toLowerCase();
     setState(() {
-      filtered =
-          AppLanguage.supportedLanguages.where((locale) {
-            final name = LanguageLabelUtil.getDisplayName(locale).toLowerCase();
-            return name.contains(query);
-          }).toList();
+      filtered = AppLanguage.supportedLanguages.where((locale) {
+        final name = LanguageLabelUtil.getDisplayName(locale).toLowerCase();
+        return name.contains(query);
+      }).toList();
     });
   }
 

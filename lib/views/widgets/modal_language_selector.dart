@@ -13,14 +13,13 @@ class ModalLanguageSelector extends StatelessWidget {
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
       ),
-      builder:
-          (_) => const FractionallySizedBox(
-            heightFactor: 0.9,
-            child: Padding(
-              padding: EdgeInsets.all(16),
-              child: SearchableLanguagePicker(),
-            ),
-          ),
+      builder: (_) => const FractionallySizedBox(
+        heightFactor: 0.9,
+        child: Padding(
+          padding: EdgeInsets.all(16),
+          child: SearchableLanguagePicker(),
+        ),
+      ),
     );
   }
 
