@@ -15,17 +15,14 @@ dependencies:
   flutter:
     sdk: flutter
     
-  navigation_without_context:
-    path: ../navigation_without_context
-  dart_data_type_parser:
-    path: ../dart_data_type_parser
-  get_it_di_global_variable:
-    path: ../get_it_di_global_variable
+  navigation_without_context: ^0.0.3+1
+  dart_data_type_parser: ^0.0.2
+  get_it_di_global_variable: ^0.0.5
 
   country_code_picker: ^3.3.0
   flutter_localization: ^0.3.3
   flutter_bloc: ^9.1.1
-  hydrated_bloc: ^10.0.0
+  hydrated_bloc: ^10.1.1
   path_provider: ^2.1.5
   provider: ^6.1.5
 
