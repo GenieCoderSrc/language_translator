@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.0.7
+
+### Aug 19, 2025
+
+### ✨ Updated
+
+- Updated country_code_picker version as country_code_picker: ^3.4.0
+- Updated provider version as provider: ^6.1.5+1
+- Updated path_provider version as path_provider: ^2.1.5
+- Updated navigation_without_context: ^0.0.4
+- Updated dart_data_type_parser: ^0.0.3
+- Updated get_it_di_global_variable: ^0.0.6
+- Updated Dart sdk to 3.9.0
+- Removed `flutter_lints` Dependency
+
+
+
 ## 0.0.6+1
 ### Jun 27, 2025
 
