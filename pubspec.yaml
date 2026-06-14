@@ -19,10 +19,10 @@ dependencies:
   dart_data_type_parser: ^0.0.3
   get_it_di_global_variable: ^0.0.6
 
-  country_code_picker: ^3.4.0
-  flutter_localization: ^0.3.3
+  country_code_picker: ^3.4.1
+  flutter_localization: ^0.4.0
   flutter_bloc: ^9.1.1
-  hydrated_bloc: ^10.1.1
+  hydrated_bloc: ^11.0.0
   path_provider: ^2.1.5
   provider: ^6.1.5+1
 
