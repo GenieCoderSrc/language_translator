@@ -17,7 +17,7 @@ dependencies:
     
   navigation_without_context: ^0.0.4
   dart_data_type_parser: ^0.0.3
-  get_it_di_global_variable: ^0.0.6
+  get_it_di_global_variable: ^0.0.7
 
   country_code_picker: ^3.4.1
   flutter_localization: ^0.4.0
