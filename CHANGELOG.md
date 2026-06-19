@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.0.8
 
+### Jun 15, 2026
+
+### ✨ Updated
+
+- Synchronized recursive dependencies and bumped version for stability.
 
 ## 0.0.7
 
@@ -13,15 +19,14 @@ All notable changes to this project will be documented in this file.
 - Updated country_code_picker version as country_code_picker: ^3.4.0
 - Updated provider version as provider: ^6.1.5+1
 - Updated path_provider version as path_provider: ^2.1.5
-- Updated navigation_without_context: ^0.0.4
+- Updated navigation_without_context: ^0.0.5
 - Updated dart_data_type_parser: ^0.0.3
 - Updated get_it_di_global_variable: ^0.0.6
 - Updated Dart sdk to 3.9.0
 - Removed `flutter_lints` Dependency
 
-
-
 ## 0.0.6+1
+
 ### Jun 27, 2025
 
 ### Updated
@@ -31,20 +36,24 @@ All notable changes to this project will be documented in this file.
 ---
 
 ## 0.0.6
+
 ### Jun 27, 2025
 
 ### Added
 
-* `initializeLanguageConfig` function to simplify app language initialization using optional parameters (`defaultLanguageCode`, `countryCode`, and `supportedLocales`).
+* `initializeLanguageConfig` function to simplify app language initialization using optional
+  parameters (`defaultLanguageCode`, `countryCode`, and `supportedLocales`).
 
 ---
 
 ## 0.0.5+1
+
 ### Jun 26, 2025
 
 ### Added
 
-* `AppLanguageBuilder` to wrap child widgets with correct `Directionality` and `Localizations.override`.
+* `AppLanguageBuilder` to wrap child widgets with correct `Directionality` and
+  `Localizations.override`.
 
 ## 0.0.5
 
@@ -60,7 +69,8 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
-* Updated project architecture to follow SOLID and DRY principles across language and theme handling.
+* Updated project architecture to follow SOLID and DRY principles across language and theme
+  handling.
 * Language configuration is now optional via `DefaultLanguageConfig` with `.copyWith()` support.
 * MaterialApp now uses `locale` and `themeMode` from respective Cubits.
 * BlocProvider registration for language and theme Cubits moved to `get_it` DI structure.
@@ -81,13 +91,14 @@ All notable changes to this project will be documented in this file.
 
 * Initial support for basic language codes:
 
-  * English (`en`)
-  * Hindi (`hi`)
-  * Bengali (`bn`)
-  * Punjabi (`pa`)
-  * Spanish (`es`)
+    * English (`en`)
+    * Hindi (`hi`)
+    * Bengali (`bn`)
+    * Punjabi (`pa`)
+    * Spanish (`es`)
 * Extended `supportLanguage` list to include all languages supported by `flutter_localizations`.
-* Updated `getGlobalLanguageName(String code)` function to return human-readable names for all supported languages using ISO 639-1 codes.
+* Updated `getGlobalLanguageName(String code)` function to return human-readable names for all
+  supported languages using ISO 639-1 codes.
 * Included region variants like `en_US`, `pt_BR`, and `zh_TW` for better locale support.
 
 ## 0.0.3+1
