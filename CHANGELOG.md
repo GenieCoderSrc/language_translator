@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.0.9
+
+### Sep 26, 2026
+
+### ✨ Updated
+- Updated `flutter_localization` 0.4.1
+- Updated `path_provider` 2.1.6
+
 ## 0.0.8
 
 ### Jun 15, 2026
