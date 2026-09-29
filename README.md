@@ -24,6 +24,8 @@ A lightweight Flutter package for seamlessly integrating multi-language support 
 Add this to your `pubspec.yaml`:
 
 ```yaml
+resolution: workspace
+
 dependencies:
   language_translator: <latest_version>
 ```
