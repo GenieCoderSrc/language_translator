@@ -118,8 +118,8 @@ class LanguageLabelUtil {
         return countryCode == 'PT'
             ? 'Português (Portugal)'
             : countryCode == 'BR'
-            ? 'Português (Brasil)'
-            : 'Português';
+                ? 'Português (Brasil)'
+                : 'Português';
       case 'ro':
         return 'Română';
       case 'ru':
@@ -164,8 +164,8 @@ class LanguageLabelUtil {
         return countryCode == 'TW'
             ? '繁體中文'
             : countryCode == 'CN'
-            ? '简体中文'
-            : '中文';
+                ? '简体中文'
+                : '中文';
       case 'zu':
         return 'isiZulu';
       default:

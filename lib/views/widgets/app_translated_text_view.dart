@@ -17,9 +17,9 @@ class AppTranslatedTextView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Text(
-    txt.translateTxt(context),
-    style: style,
-    textAlign: textAlign,
-    textDirection: textDirection,
-  );
+        txt.translateTxt(context),
+        style: style,
+        textAlign: textAlign,
+        textDirection: textDirection,
+      );
 }

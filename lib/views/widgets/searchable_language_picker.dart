@@ -51,8 +51,7 @@ class _SearchableLanguagePickerState extends State<SearchableLanguagePicker> {
             itemCount: filtered.length,
             itemBuilder: (_, index) {
               final locale = filtered[index];
-              final selected =
-                  locale.languageCode == current.languageCode &&
+              final selected = locale.languageCode == current.languageCode &&
                   (locale.countryCode == null ||
                       locale.countryCode == current.countryCode);
 
